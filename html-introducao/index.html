@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Introdução ao HTML</title>
+    </head>
+    
+    <body>
+        <h1 id="inicio">Introdução ao HTML</h1>
+        <hr>
+
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre Tags</a></li>
+            <li><a href="#atributos-tags">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#fontes">Links</a></li>
+        </ul>   
+        
+        <br><br>
+
+        <hr>
+        <h3 id="estrutura">Estrutura Básica do HTML</h3>    
+        <p>A estrutura básica do HTML está dividia em três partes, que são três <u>tags</u>, elementos que se encontram entre os símbolos '<' e '>'.<br> 
+            Geralmente as tags são escritas como pares, onde a primeira instância "abre" a tag e a segunda "fecha" (sendo indicada pelo uso do símbolo '/' entre '<>')<br> 
+            As três tags que estruturam um arquivo HTML são:
+            <ol>
+                <li><b>html</b>: É a tag principal que vai conter o conteúdo do arquivo referente à essa tecnologia.</li>
+                <li><b>head</b>: É a "cabeça" do arquivo. Contém algumas informações referentes ao arquivo em si, sendo pré-carregada e não costuma ter uma interação direta com o "conteúdo consumido" pelo "usuário final".</li>
+                <li><b>body</b>: É o "corpo" do arquivo. Nessa parte é onde será inserido o conteúdo principal da página, onde o usuário final consumirá o que foi desenvolvido ali. A maior parte das tags presentes na linguagem é utilizada nesta parte.</li>
+            </ol>
+        </p>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br><br> 
+
+        <hr>
+        <h3 id="tags">Falando sobre Tags</h3>
+        <p>As tags são os elementos responsáveis por realizar a "marcação de texto" do HTML. para que um conteúdo seuja influenciado por uma tag, ele deve estar contido entre a tag de abertura e a de fechamento <br><br>
+            Algumas das principais tags utilizadas no HTML são: 
+            <ul>
+                <li><b>'title'</b>: Tag utilizada na parte 'head' do arquivo, para definir o título da página</li>
+                <li><b>'i'</b>: Coloca o texto, contido entre as tags de abertura e fechamento, em <i>Italico</i></li>
+                <li><b>'strong'</b>: Coloca o texto, contido entre as tags de abertura e fechamento, em <strong>Negrito</strong></li>
+                <li><b>'mark'</b>: O trecho determinado fica com uma <mark>marcação</mark>. </li>
+                <li><b>'sup'</b>: O trecho determinado fica com uma <sup>elevação</sup>. </li>
+                <li><b>'input'</b>: Cria um campo para a inserção de informações. É uma das tags que não precisa de uma "tag de fechamento".</li>
+            </ul> 
+        </p>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br><br>
+
+        <hr>
+        <h3 id="atributos-tags">Atributos das Tags</h3>
+        <p>Os atributos são as propriedades das tags. Através deles podemos manipular algumas características das tags. <br>
+            Alguns atributos são mais "generalistas", podendo estar presentes em várias tags, equantos outros são específicos para uma tag determinada. <br>
+            Os atributos são inseridos "dentro das tags" (entre os símbolos '<'e'>')<br><br>
+            Alguns exemplos de atributos são:
+            <ul>
+                <li><b>'id'</b>: Funciona como um identificador para a esse elemento.</li>
+                <li><b>'style'</b>: Relacionado com a formatação (estilo) do elemento.</li>
+                <li><b>'class'</b>: Define o elemento como sendo de uma determinada 'classe' de elementos, ajudando na organização. </li>
+                <li><b>'type'</b>: É atributo da tag <b>'input'</b>, responsável por definir o tipo de informação que será inserida no campo. </li>
+                <li><b>'src'</b>: Responsável por definir o caminho da fonte da imagem exibida na tag <b>'img'</b>. </li>
+            </ul>
+        </p>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br><br>
+
+        <hr>
+        <h3 id="textos">Textos</h3>
+        <p>Existem diversas tags responsáveis pela manipulação das tipografias dos textos escritos num arquivo HTML.<br>
+            As tags podem ser agrupadas para gerar combinações de manipulações no trecho de texto.<br><br> 
+            Algumas das principais tags são: 
+            <ul>
+                <li><b>'h'</b> (indo do 'h1' ao 'h6'): Serve para definir os '<i>headers</i>' (cabeçalhos ou títulos) dos textos escritos. Indo do 'h1', com mais destaque, até o 'h6'. </li>
+                <li><b>'p'</b>: Do Inglês '<i>paragraph</i>', serve para definir e delimitar os parágrafos, no corpo do texto que é escrito no arquivo. </li>
+                <li><b>'blockquote'</b>: Estrutura o trecho determinado para ter uma formatação de "citação". </li>
+            </ul> 
+        </p>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br><br>
+
+        <hr>
+        <h3 id="listas">Listas Ordenadas e Não Ordenadas</h3>
+        <p>As listas podem ser definidas em "Listas Ordenadas" ('<i>ordered list</i>') e "Não Ordenadas" ('<i>unordered list</i>'), sendo suas tags '<b>ol</b>' e '<b>ul</b>', respectivamente. <br> 
+            para criar uma lista, é necessário utilizar as "tags pais" de abertura e fechamento da lista específica e colocar os itens da lista ('<i>list items</i>') especificados individualmente entre as "tags filhas" de abertura e fechamento '<b>li</b>' <br><br>
+            Exemplos de como ficariam as listas são:
+
+            <ol>
+                <li> Item Ordenado 1</li>
+                <li> Item Ordenado 2</li>
+                <li> Item Ordenado 3</li>
+            </ol>
+            
+            <ul>
+                <li>1° Item NÃO Ordenado escrito</li>
+                <li>2° Item NÃO Ordenado escrito</li>
+                <li>3° Item NÃO Ordenado escrito</li>
+            </ul>
+        </p>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br><br>
+
+        <hr>
+        <h3 id="links">Links</h3>
+        <p>Os 'links' são os "endereços" dos arquivos. Através da ligação ('<i>links</i>') entre diferentes páginas, ou arquivos, é que possibilita "navegar". Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+            A tag utilizada para epecificar links é a '<b>a</b>', de '<i>anchor</i>' no Inglês. Através dela, o trecho de texto estará "ancorado" (vinculado/ligado) a um determinado "endereço".<br>
+            Para utilizar a tag, escrevemos as tags de abertura e fechamento '<b>a</b>' e inserimos  dentro da tag de abertura o atributo específico '<b>href=</b>' seguido do link/endereço, entre aspas duplas ( " " ).<br>
+            Outro atributo que podemos utilizar é o '<b>target=</b>', que através dos termos <b>"_self"</b> e <b>"_blank"</b>, determina se o link abrirá na própria aba atual ou em uma outra aba, especificamente. <br>
+            Um outro atributo é o '<b>title=</b>', que na tag link serve para criar uma caixa com um texto, que aparece quando o cursor do mouse está sobre o link. 
+        </p>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br>
+
+        <br><br>
+        <hr>
+        <h4 id="fontes">Fontes</h4>
+        <ul>
+            <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML (MDN Web Docs)</a> </li>
+            <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">Elementos HTML (MDN Web Docs)</a> </li>
+            <li> <a href="https://www.w3schools.com/tags/">HTML Element Reference (W3Schools)</a> </li>
+        </ul>
+        <small> <a href="#inicio">(Voltar)</a> </small>
+        <br>
+
+    </body>
+
+</html>
